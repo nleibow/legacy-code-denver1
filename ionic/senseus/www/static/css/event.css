@@ -309,9 +309,15 @@ border-color: red;
 .radio-icon {
   color: blue;
 }
+@media only screen and (max-device-width: 480px) {
+  #event-name-container span, #event-name-container div , #event-name-container label {
+  font-size: 10px;
+}
+
+  }
 
 #event-name-container span, #event-name-container div , #event-name-container label {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #event-name-container #senseus-header span{
@@ -319,7 +325,8 @@ border-color: red;
 }
 
 .flex-row, .p0 {
-  padding:0;
+  padding:15px;
+  background-color: rgba(176,224,230,.3) 
 }
 
 .pl1, #event-type-container .item-content {
